@@ -1,0 +1,6 @@
+framework module Pods_Crashlytics_DemoTests {
+  umbrella header "Pods-Crashlytics DemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
