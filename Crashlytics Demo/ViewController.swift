@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let button = UIButton(type: .roundedRect)
         button.frame = CGRect(x: 20, y: 50, width: 100, height: 30)
     //button.setTitle("Crash", for: [])
-        button.setTitle("Submit", for: .normal)
+        button.setTitle("Please add event to your task list", for: .normal)
         button.addTarget(self, action: #selector(crashButtonTapped), for: .touchUpInside)
         view.addSubview(button)
     }
